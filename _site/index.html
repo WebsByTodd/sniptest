@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Test Page</title>
+
+	<link rel="stylesheet" href="/styles.css">
+  
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  
+  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
+  
+</head>
+<body class="ln">
+	<div class="product">
+		<div class="product__container product__container--ln-atf">
+			<h1 class="product__title product__title--ln">Liquid Napalm</h1>
+			<h2 class="product__subheading">SPICY Cajun Sauce, 5oz</h2>
+			<div class="product__details">
+				<p class="product__price product__price--top">$5.75</p>
+				<div class="product__cart-icon snipcart-checkout snipcart-summary"><i class="fa fa-opencart" aria-hidden="true"></i><span class="product__cart-count product__cart-count--ln snipcart-total-items"></span></div>
+			</div>
+		</div>
+		<div class="product__container product__container--ln-btf">
+			<div class="product__details">
+				<div class="product__counter">
+					<h4 class="product__counter-header">Quantity</h4>
+					<button onclick="downCount()">
+						<i class="fa fa-caret-down product__counter-arrow product__counter-arrow--down" aria-hidden="true"></i>
+					</button>
+					<span class="product__counter-count">1</span>
+					<button onclick="upCount()">
+						<i class="fa fa-caret-up product__counter-arrow product__counter-arrow--up" aria-hidden="true"></i>
+					</button>
+				</div>
+				<p class="product__price product__price--bottom">$5.75</p>
+			</div>
+			<div class="product__details">
+				<button class="snipcart-add-item button button--action"
+					data-item-name="Liquid Napalm"
+					data-item-id="100"
+					data-item-image="http://www.cajunheat.com"
+					data-item-url="http://www.cajunheat.com/liquid-napalm/"
+					data-item-price="5.75"
+					data-item-quantity="1">
+					<div class="button__shimmer"></div>
+					Add to cart
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="YTBhZDQ0ZWUtOGYyYi00ZTljLWFkZDAtZjBiNTllNDUwMTI5NjM2MjQ1Nzk3MzgwOTU2Mzg3"></script>
+	<script src="/app.js"></script>
+</body>
+</html>
